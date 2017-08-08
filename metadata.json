@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "source": "https://github.com/booo/puppet-php-fpm.git",
   "author": "Philipp Borgers",
-  "license": "MIT"
+  "license": "MIT",
   "summary": "Lightweight package for php-fpm and only php-fpm",
-  "project_page": "https://github.com/booo/puppet-php-fpm"
+  "project_page": "https://github.com/booo/puppet-php-fpm",
   "dependencies": [
     {
-      "name":"puppetlabs/stdlib",
-      "version_requirement":">= 4.1.0"
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
     }
   ]
 }

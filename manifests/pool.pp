@@ -17,7 +17,7 @@ define php-fpm::pool(
   $pm_max_requests = 500,
   $chdir = '/',
 ) {
-  file { "/etc/php5/fpm/pool.d/${name}.conf":
+  file { "/etc/php/7.0/fpm/pool.d/${name}.conf":
     ensure  => $ensure,
     content => template('php-fpm/pool.conf.erb'),
     notify  => Class['Php-fpm::Service'],

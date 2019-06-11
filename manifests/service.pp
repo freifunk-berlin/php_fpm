@@ -1,5 +1,5 @@
 class php-fpm::service {
-  service { 'php5-fpm':
+  service { 'php7.0-fpm':
     ensure   => running,
     enable   => true,
   }

@@ -6,6 +6,6 @@ class php-fpm::install($ensure) {
     ensure  => $ensure,
     content => template('php-fpm/php-fpm.conf.erb'),
     require => Package['php-fpm'],
-    notify  => Service['php-fpm'],
+    notify  => Service['php7.0-fpm'],
   }
 }
